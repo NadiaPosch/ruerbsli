@@ -1,0 +1,13 @@
+{
+  "name": "Chilli",
+  "zutaten": ["2EL Sauce", "1kg Tomaten"],
+  "dauer": "4h",
+  "schritte": ["häkseln", "anbraten"],
+  "portionen": 4,
+  "nutrition": {
+    "protein": "50g",
+    "carbs": "200g",
+    "fat": "100g"
+  },
+  "bild": "/images/chilli.jpg"
+}
