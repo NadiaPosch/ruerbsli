@@ -1,31 +1,28 @@
 import { GetStaticProps, NextPage } from "next";
-import Head from "next/head";
 import Link from "next/link";
 import { getRecipes, Recipe } from "../data/recipes";
-
+import { Card } from "../elements/card";
+import { Title } from "../elements/title";
+import { Page } from "../layout/page";
 type Props = {
   recipes: Recipe[];
 };
 
 const Home: NextPage<Props> = ({ recipes }) => {
   return (
-    <div className="container">
-      <Head>
-        <title>Ruerbsli</title>
-        <meta name="description" content="Ruebli + Erbsli = Ruerbsli" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="main grid">
+    <Page>
+      <div className="flex flex-wrap gap-8 max-w-lg">
         {recipes.map((recipe) => (
           <Link key={recipe.name} href={`/rezept/${recipe.id}`}>
-            <a>
-              <div className="card">{recipe.name}</div>
+            <a className="hover:opacity-80 transition-opacity">
+              <Card className="w-32 h-32 flex justify-center items-center">
+                <Title>{recipe.name}</Title>
+              </Card>
             </a>
           </Link>
         ))}
-      </main>
-    </div>
+      </div>
+    </Page>
   );
 };
 

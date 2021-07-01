@@ -1,7 +1,8 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
-import Head from "next/head";
 import Image from "next/image";
 import { getRecipe, getRecipeParams, Recipe } from "../../data/recipes";
+import { Card } from "../../elements/card";
+import { Page } from "../../layout/page";
 
 type Props = {
   recipe: Recipe | null;
@@ -13,14 +14,8 @@ const Rezept: NextPage<Props> = ({ recipe }) => {
   }
 
   return (
-    <div className="flex justify-center">
-      <Head>
-        <title>Ruerbsli - {recipe.name}</title>
-        <meta name="description" content="Fit as a Show" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
+    <Page>
+      <Card>
         <h1 className="text-2xl font-bold text-white text-center mb-8">
           {recipe.name}
         </h1>
@@ -30,9 +25,10 @@ const Rezept: NextPage<Props> = ({ recipe }) => {
           objectFit="cover"
           height={300}
           width={300}
+          className="rounded-md"
         />
-      </main>
-    </div>
+      </Card>
+    </Page>
   );
 };
 
