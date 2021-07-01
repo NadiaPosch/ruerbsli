@@ -1,0 +1,14 @@
+{
+  "id": "porridge",
+  "name": "Porridge",
+  "zutaten": ["0.5 cup Haferflocken", "1 Frucht"],
+  "dauer": "20min",
+  "schritte": ["Wasser kochen", "Haferflocken hinzufügen"],
+  "portionen": 1,
+  "nutrition": {
+    "protein": "50g",
+    "carbs": "50g",
+    "fat": "5g"
+  },
+  "bild": "/images/porridge.jpg"
+}
