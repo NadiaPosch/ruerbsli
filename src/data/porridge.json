@@ -1,9 +1,44 @@
 {
   "id": "porridge",
   "name": "Porridge",
-  "zutaten": ["0.5 cup Haferflocken", "1 Frucht"],
+  "zutaten": [
+    {
+      "einheit": "3/4 cups",
+      "zutat": "Wasser"
+    },
+    {
+      "einheit": "0.5 cups",
+      "zutat": "Haferflocken"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Frucht, in Stücken"
+    },
+    {
+      "einheit": "1cm",
+      "zutat": "Ingwer, gerieben"
+    },
+    {
+      "einheit": "2 EL",
+      "zutat": "Magerquark"
+    },
+
+    {
+      "einheit": "1 Handvoll",
+      "zutat": "Nüsse, klein gehackt"
+    },
+    {
+      "einheit": "Prise",
+      "zutat": "Zimt"
+    }
+  ],
   "dauer": "20min",
-  "schritte": ["Wasser kochen", "Haferflocken hinzufügen"],
+  "schritte": [
+    "Wasser zum Kochen bringen (Stufe 6)",
+    "Haferflocken hinzufügen (Stufe 3.5), warten bis das Wasser aufgesogen ist",
+    "Restliche Zutaten hinzufügen und untermischen",
+    "Herdplatte ausschalten und 5min ziehen lassen"
+  ],
   "portionen": 1,
   "nutrition": {
     "protein": "50g",

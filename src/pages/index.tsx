@@ -1,11 +1,11 @@
 import { GetStaticProps, NextPage } from "next";
 import Link from "next/link";
-import { getRecipes, Recipe } from "../data/recipes";
+import { getRecipes, RecipeData } from "../data/recipes";
 import { Card } from "../elements/card";
 import { Title } from "../elements/title";
 import { Page } from "../layout/page";
 type Props = {
-  recipes: Recipe[];
+  recipes: RecipeData[];
 };
 
 const Home: NextPage<Props> = ({ recipes }) => {

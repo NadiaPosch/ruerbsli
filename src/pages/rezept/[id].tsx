@@ -1,11 +1,12 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Image from "next/image";
-import { getRecipe, getRecipeParams, Recipe } from "../../data/recipes";
+import { getRecipe, getRecipeParams, RecipeData } from "../../data/recipes";
 import { Card } from "../../elements/card";
+import { Recipe } from "../../elements/recipe";
 import { Page } from "../../layout/page";
 
 type Props = {
-  recipe: Recipe | null;
+  recipe: RecipeData | null;
 };
 
 const Rezept: NextPage<Props> = ({ recipe }) => {
@@ -27,6 +28,7 @@ const Rezept: NextPage<Props> = ({ recipe }) => {
           width={300}
           className="rounded-md"
         />
+        <Recipe recipe={recipe} />
       </Card>
     </Page>
   );
