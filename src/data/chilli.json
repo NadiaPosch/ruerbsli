@@ -1,9 +1,49 @@
 {
   "id": "chilli",
   "name": "Chilli",
-  "zutaten": [],
+  "zutaten": [
+    {
+      "einheit": "1",
+      "zutat": "Zwiebel, gehackt"
+    },
+    {
+      "einheit": "500 g",
+      "zutat": "Hackfleisch"
+    },
+    {
+      "einheit": "2 EL",
+      "zutat": "Tomatenpüree"
+    },
+    {
+      "einheit": "400 g",
+      "zutat": "Pelati"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Pepperoni, geschnitzelt"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Chillischote, gehackt"
+    },
+    {
+      "einheit": "1 Dose",
+      "zutat": "Rote Bohnen"
+    },
+    {
+      "einheit": "",
+      "zutat": "Salz, Pfeffer, Gewürze"
+    }
+  ],
   "dauer": "4h",
-  "schritte": ["häkseln", "anbraten"],
+  "schritte": [
+    "Zwiebeln andünsten",
+    "Hackfleisch hinzufügen, gut anbraten",
+    "Tomatenpüree hinzufügen, mitbraten",
+    "Pelati, Pepperoni & Chilli hinzufügen, halbe Dose Wasser dazu",
+    "Unter gelegentlichem Umrühren ca. 3h köcheln lassen bis Flüssigkeit aufgesogen ist",
+    "Bohnen hinzufügen, gut würzen, köcheln bis gut"
+  ],
   "portionen": 4,
   "nutrition": {
     "protein": "50g",

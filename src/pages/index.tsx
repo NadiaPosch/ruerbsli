@@ -3,26 +3,23 @@ import Link from "next/link";
 import { getRecipes, RecipeData } from "../data/recipes";
 import { Card } from "../elements/card";
 import { Title } from "../elements/title";
-import { Page } from "../layout/page";
 type Props = {
   recipes: RecipeData[];
 };
 
 const Home: NextPage<Props> = ({ recipes }) => {
   return (
-    <Page>
-      <div className="flex flex-wrap gap-8 max-w-lg">
-        {recipes.map((recipe) => (
-          <Link key={recipe.name} href={`/rezept/${recipe.id}`}>
-            <a className="hover:opacity-80 transition-opacity">
-              <Card className="w-32 h-32 flex justify-center items-center">
-                <Title>{recipe.name}</Title>
-              </Card>
-            </a>
-          </Link>
-        ))}
-      </div>
-    </Page>
+    <div className="flex flex-wrap gap-8">
+      {recipes.map((recipe) => (
+        <Link key={recipe.name} href={`/rezept/${recipe.id}`}>
+          <a className="">
+            <Card className="w-32 h-32 flex justify-center items-center hover:text-yellow-500 hover:border-yellow-500 transition-colors">
+              <Title>{recipe.name}</Title>
+            </Card>
+          </a>
+        </Link>
+      ))}
+    </div>
   );
 };
 

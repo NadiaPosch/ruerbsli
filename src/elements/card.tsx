@@ -5,7 +5,7 @@ export const Card: FC<{ className?: string }> = ({
   className = "",
 }) => (
   <div
-    className={`bg-white bg-opacity-25 backdrop-filter backdrop-blur-lg p-4
+    className={`bg-white bg-opacity-25 backdrop-filter backdrop-blur-sm
     rounded-md border border-white border-opacity-20 shadow-lg text-white ${className}`}
   >
     {children}
