@@ -1,6 +1,9 @@
 {
   "id": "chilli",
   "name": "Chilli",
+  "dauer": "4h",
+  "portionen": 4,
+  "bild": "/images/chilli.jpg",
   "zutaten": [
     {
       "einheit": "1",
@@ -35,7 +38,6 @@
       "zutat": "Salz, Pfeffer, Gewürze"
     }
   ],
-  "dauer": "4h",
   "schritte": [
     "Zwiebeln andünsten",
     "Hackfleisch hinzufügen, gut anbraten",
@@ -44,11 +46,9 @@
     "Unter gelegentlichem Umrühren ca. 3h köcheln lassen bis Flüssigkeit aufgesogen ist",
     "Bohnen hinzufügen, gut würzen, köcheln bis gut"
   ],
-  "portionen": 4,
   "nutrition": {
     "protein": "50g",
     "carbs": "200g",
     "fat": "100g"
-  },
-  "bild": "/images/chilli.jpg"
+  }
 }

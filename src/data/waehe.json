@@ -1,0 +1,57 @@
+{
+  "id": "waehe",
+  "name": "Wähe",
+  "dauer": "1h",
+  "portionen": 3,
+  "bild": "/images/waehe.jpg",
+  "zutaten": [
+    {
+      "einheit": "1",
+      "zutat": "Fenchel, geschnitten"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Zucchetti, gewürfelt"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Lauch, geschnitten"
+    },
+    {
+      "einheit": "200 g",
+      "zutat": "Rauchlachs, geschnitten"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Wähenteig"
+    },
+    {
+      "einheit": "genug",
+      "zutat": "Parmesan"
+    },
+    {
+      "einheit": "2",
+      "zutat": "Eier"
+    },
+    {
+      "einheit": "ca. 2 dl",
+      "zutat": "Milch"
+    },
+    {
+      "einheit": "",
+      "zutat": "Salz, Pfeffer, Kräutli"
+    }
+  ],
+  "schritte": [
+    "Gemüse dämpfen",
+    "Wähenteig auf dem Blech verteilen, mit einer Gabel einstechen, Parmesan darüberstreuen",
+    "Eier in einen Massbecher aufschlagen, mit Milch bis ca. 3 dl auffüllen, gut würzen und mixen",
+    "Gedämpftes Gemüse mit dem Rauchlachs mischen, auf dem Wähenteig verteilen, Guss darüberleeren",
+    "Ofen auf 200°C (Umluft & Unterhitze) vorheizen, in der unteren Ofenhälfte ca. 35min bachen"
+  ],
+  "nutrition": {
+    "protein": "50g",
+    "carbs": "200g",
+    "fat": "100g"
+  }
+}

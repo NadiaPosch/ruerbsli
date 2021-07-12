@@ -1,5 +1,6 @@
 import Chilli from "./chilli.json";
 import Porridge from "./porridge.json";
+import Waehe from "./waehe.json";
 
 export type RecipeData = {
   id: string;
@@ -19,7 +20,7 @@ export type RecipeData = {
   bild: string;
 };
 
-export const getRecipes = () => [Chilli, Porridge];
+export const getRecipes = () => [Chilli, Porridge, Waehe];
 
 export const getRecipeParams = () =>
   getRecipes().map((recipe) => ({

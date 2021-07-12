@@ -1,6 +1,9 @@
 {
   "id": "porridge",
   "name": "Porridge",
+  "dauer": "20min",
+  "portionen": 1,
+  "bild": "/images/porridge.jpg",
   "zutaten": [
     {
       "einheit": "3/4 cups",
@@ -32,18 +35,15 @@
       "zutat": "Zimt"
     }
   ],
-  "dauer": "20min",
   "schritte": [
     "Wasser zum Kochen bringen (Stufe 6)",
     "Haferflocken hinzufügen (Stufe 3.5), warten bis das Wasser aufgesogen ist",
     "Restliche Zutaten hinzufügen und gut mischen",
     "Herdplatte ausschalten und 5min ziehen lassen"
   ],
-  "portionen": 1,
   "nutrition": {
     "protein": "50g",
     "carbs": "50g",
     "fat": "5g"
-  },
-  "bild": "/images/porridge.jpg"
+  }
 }
