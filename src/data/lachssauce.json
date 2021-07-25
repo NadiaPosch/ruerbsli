@@ -1,0 +1,31 @@
+{
+  "id": "lachssauce",
+  "name": "Lachs-rahmsauce",
+  "dauer": "15min",
+  "portionen": 2,
+  "bild": "/images/lachssauce.jpeg",
+  "zutaten": [
+    {
+      "einheit": "2 dl",
+      "zutat": "Saucenrahm"
+    },
+    {
+      "einheit": "100 g",
+      "zutat": "Rauchlachs, geschnitten"
+    },
+    {
+      "einheit": "",
+      "zutat": "Salz, Pfeffer, Kräutli"
+    }
+  ],
+  "schritte": [
+    "Rahm auf mittlerer Stufe (4) wärmen",
+    "Lachs hinzufügen",
+    "würzen bis gut und heiss servieren"
+  ],
+  "nutrition": {
+    "protein": "50g",
+    "carbs": "200g",
+    "fat": "100g"
+  }
+}

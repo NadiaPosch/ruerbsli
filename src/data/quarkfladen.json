@@ -1,0 +1,49 @@
+{
+  "id": "quarkfladen",
+  "name": "Quark-fladen",
+  "dauer": "45min",
+  "portionen": 2,
+  "bild": "/images/quarkfladen.jpeg",
+  "zutaten": [
+    {
+      "einheit": "3 cups",
+      "zutat": "Erbsli"
+    },
+    {
+      "einheit": "4",
+      "zutat": "getrocknete Tomaten, gehackt"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Zwiebel, in Halbkreisen"
+    },
+    {
+      "einheit": "200 g",
+      "zutat": "Magerquark"
+    },
+    {
+      "einheit": "4",
+      "zutat": "Eier"
+    },
+    {
+      "einheit": "genug",
+      "zutat": "Parmesan"
+    },
+    {
+      "einheit": "",
+      "zutat": "Salz, Pfeffer, Kräutli"
+    }
+  ],
+  "schritte": [
+    "Erbsli kochen, getrocknete Tomaten untermischen",
+    "Quark, Eier, Parmesan und Gewürze mixen",
+    "Erbsli und Zwiebel hinzufügen, gut mischen",
+    "Mischung auf einem Bachblech gleichmässig verteilen",
+    "Ofen auf 200°C (Umluft) vorheizen, in der Ofenmitte ca. 20min bachen"
+  ],
+  "nutrition": {
+    "protein": "50g",
+    "carbs": "200g",
+    "fat": "100g"
+  }
+}

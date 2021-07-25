@@ -1,0 +1,58 @@
+{
+  "id": "brown-bread",
+  "name": "Brown Bread",
+  "dauer": "1h",
+  "portionen": 4,
+  "bild": "/images/brown-bread.jpg",
+  "zutaten": [
+    {
+      "einheit": "200 ml",
+      "zutat": "Milch"
+    },
+    {
+      "einheit": "2 Spritzer",
+      "zutat": "Zitronensaft"
+    },
+    {
+      "einheit": "200 g",
+      "zutat": "Vollkornmehl"
+    },
+    {
+      "einheit": "50 g",
+      "zutat": "Haferflocken"
+    },
+    {
+      "einheit": "1 Handvoll",
+      "zutat": "Nüsse, gehackt"
+    },
+    {
+      "einheit": "1 TL",
+      "zutat": "Salz"
+    },
+    {
+      "einheit": "0.5 TL",
+      "zutat": "Zimt"
+    },
+    {
+      "einheit": "1 gestr. TL",
+      "zutat": "Natron"
+    },
+    {
+      "einheit": "2 EL",
+      "zutat": "Kernen"
+    }
+  ],
+  "schritte": [
+    "Milch mit Zitronensaft mischen, beiseite stellen",
+    "Restliche Zutaten bis auf Kernen in einer Schüssel mischen",
+    "Milch hinzufügen, rühren bis eine einheitliche Masse entsteht",
+    "Brotform mit Backpapier auskleiden, Teig hineinfüllen und flach streichen",
+    "Kernen darüberstreuen",
+    "Ofen auf 200°C (Umluft & Unterhitze) vorheizen, in der unteren Ofenhälfte ca. 40min bachen"
+  ],
+  "nutrition": {
+    "protein": "50g",
+    "carbs": "200g",
+    "fat": "100g"
+  }
+}

@@ -1,5 +1,8 @@
+import BrownBread from "./brown-bread.json";
 import Chilli from "./chilli.json";
+import Lachssauce from "./lachssauce.json";
 import Porridge from "./porridge.json";
+import Quarkfladen from "./quarkfladen.json";
 import Waehe from "./waehe.json";
 
 export type RecipeData = {
@@ -20,7 +23,14 @@ export type RecipeData = {
   bild: string;
 };
 
-export const getRecipes = () => [Chilli, Porridge, Waehe];
+export const getRecipes = () => [
+  Chilli,
+  Porridge,
+  Waehe,
+  Quarkfladen,
+  Lachssauce,
+  BrownBread,
+];
 
 export const getRecipeParams = () =>
   getRecipes().map((recipe) => ({

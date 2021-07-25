@@ -13,7 +13,7 @@ const Home: NextPage<Props> = ({ recipes }) => {
       {recipes.map((recipe) => (
         <Link key={recipe.name} href={`/rezept/${recipe.id}`}>
           <a className="">
-            <Card className="w-32 h-32 flex justify-center items-center hover:text-yellow-500 hover:border-yellow-500 transition-colors">
+            <Card className="w-32 h-32 flex justify-center items-center text-center hover:text-yellow-500 hover:border-yellow-500 transition-colors">
               <Title>{recipe.name}</Title>
             </Card>
           </a>
