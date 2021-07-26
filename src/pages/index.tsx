@@ -9,7 +9,7 @@ type Props = {
 
 const Home: NextPage<Props> = ({ recipes }) => {
   return (
-    <div className="flex flex-wrap gap-8">
+    <div className="flex flex-wrap justify-evenly md:justify-center gap-4 md:gap-8">
       {recipes.map((recipe) => (
         <Link key={recipe.name} href={`/rezept/${recipe.id}`}>
           <a className="">

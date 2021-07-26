@@ -2,7 +2,7 @@
   "short_name": "Ruerbsli",
   "name": "Ruerbsli",
   "start_url": "/",
-  "background_color": "#EF7511",
+  "background_color": "#ffffff",
   "theme_color": "#EF7511",
   "display": "standalone",
   "icons": [
