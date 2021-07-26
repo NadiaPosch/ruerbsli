@@ -7,21 +7,19 @@ type Props = {
   recipes: RecipeData[];
 };
 
-const Home: NextPage<Props> = ({ recipes }) => {
-  return (
-    <div className="flex flex-wrap justify-evenly md:justify-center gap-4 md:gap-8">
-      {recipes.map((recipe) => (
-        <Link key={recipe.name} href={`/rezept/${recipe.id}`}>
-          <a className="">
-            <Card className="w-32 h-32 flex justify-center items-center text-center hover:text-yellow-500 hover:border-yellow-500 transition-colors">
-              <Title>{recipe.name}</Title>
-            </Card>
-          </a>
-        </Link>
-      ))}
-    </div>
-  );
-};
+const Home: NextPage<Props> = ({ recipes }) => (
+  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-8">
+    {recipes.map(({ name, id }) => (
+      <Link key={name} href={`/rezept/${id}`}>
+        <a className="">
+          <Card className="w-32 h-32 flex justify-center items-center text-center hover:text-yellow-500 hover:border-yellow-500 transition-colors">
+            <Title>{name}</Title>
+          </Card>
+        </a>
+      </Link>
+    ))}
+  </div>
+);
 
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
