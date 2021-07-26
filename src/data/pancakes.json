@@ -1,0 +1,46 @@
+{
+  "id": "pancakes",
+  "name": "Pancakes",
+  "dauer": "45min",
+  "portionen": 3,
+  "bild": "/images/pancakes.jpg",
+  "zutaten": [
+    {
+      "einheit": "150 g",
+      "zutat": "Mehl"
+    },
+    {
+      "einheit": "1/2 TL",
+      "zutat": "Salz"
+    },
+    {
+      "einheit": "2 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "einheit": "2",
+      "zutat": "Eier, getrennt"
+    },
+    {
+      "einheit": "1 gestr. EL",
+      "zutat": "Zucker"
+    },
+    {
+      "einheit": "2 dl",
+      "zutat": "Milch"
+    }
+  ],
+  "schritte": [
+    "Mehl, Salz und Backpulver in einer Schüssel mischen",
+    "Eigelb mit Zucker und Milch verrühren, hinzufügen und zu einem dickflüssigen Teig rühren",
+    "Eiweiss steifschlagen und vorsichtig unter den Teig heben",
+    "Etwas Kokosfett in die Bratpfanne geben und heiss werden lassen (Stufe 5.5)",
+    "Hitze reduzieren (4.5), Teig portionenweise beidseitig braten bis die Pancakes goldbraun sind",
+    "Warm stellen und mit süssem oder salzigem Belag geniessen"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}

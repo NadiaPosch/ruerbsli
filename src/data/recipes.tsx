@@ -1,6 +1,7 @@
 import BrownBread from "./brown-bread.json";
 import Chilli from "./chilli.json";
 import Lachssauce from "./lachssauce.json";
+import Pancakes from "./pancakes.json";
 import Porridge from "./porridge.json";
 import Quarkfladen from "./quarkfladen.json";
 import Waehe from "./waehe.json";
@@ -30,6 +31,7 @@ export const getRecipes = () => [
   Quarkfladen,
   Lachssauce,
   BrownBread,
+  Pancakes,
 ];
 
 export const getRecipeParams = () =>
