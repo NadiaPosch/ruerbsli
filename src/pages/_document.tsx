@@ -30,7 +30,7 @@ class MyDocument extends Document {
           </Link>
         </div>
         <body
-          className="flex flex-col gap-4 md:gap-12 min-h-screen pb-12"
+          className="flex flex-col gap-4 md:gap-12 min-h-screen"
           style={{ backgroundImage: `url("/images/chalkboard.jpg")` }}
         >
           <main className="flex flex-col justify-center md:max-w-lg mx-auto px-4 md:px-8">
