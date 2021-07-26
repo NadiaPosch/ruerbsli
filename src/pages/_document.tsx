@@ -11,8 +11,13 @@ class MyDocument extends Document {
             content="width=device-width, initial-scale=1.0"
           />
           <meta name="description" content="Ruebli + Erbsli = Ruerbsli" />
-          <link rel="manifest" href="/manifest.json" />
+          <link
+            rel="apple-touch-icon"
+            sizes="192x192"
+            href="/icons/icon-192.png"
+          />
           <link rel="icon" href="/favicon.ico" />
+          <link rel="manifest" href="/manifest.json" />
           <meta name="theme-color" content="#EF7511" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />

@@ -1,18 +1,19 @@
 {
   "short_name": "Ruerbsli",
-  "name": "Ruebli + Erbsli = Ruerbsli",
-  "scope": "/",
+  "name": "Ruerbsli",
   "start_url": "/",
   "background_color": "#EF7511",
   "theme_color": "#EF7511",
+  "display": "standalone",
   "icons": [
     {
-      "src": "/icons/manifest-icon-192.png",
+      "src": "/icons/icon-192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
-      "src": "/icons/manifest-icon-512.png",
+      "src": "/icons/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
