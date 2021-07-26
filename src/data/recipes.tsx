@@ -1,5 +1,10 @@
-const fs = require("fs");
-const path = require("path");
+import BrownBread from "./brown-bread.json";
+import Chilli from "./chilli.json";
+import Lachssauce from "./lachssauce.json";
+import Pancakes from "./pancakes.json";
+import Porridge from "./porridge.json";
+import Quarkfladen from "./quarkfladen.json";
+import Waehe from "./waehe.json";
 
 export type RecipeData = {
   id: string;
@@ -19,16 +24,15 @@ export type RecipeData = {
   bild: string;
 };
 
-export const getRecipes = (): RecipeData[] => {
-  const dir = "./src/data";
-  return fs
-    .readdirSync(dir)
-    .filter((name: string) => path.extname(name) === ".json")
-    .map((name: string) => {
-      const fileData = fs.readFileSync(path.join(dir, name));
-      return JSON.parse(fileData.toString());
-    });
-};
+export const getRecipes = () => [
+  Chilli,
+  Porridge,
+  Waehe,
+  Quarkfladen,
+  Lachssauce,
+  BrownBread,
+  Pancakes,
+];
 
 export const getRecipeParams = () =>
   getRecipes().map((recipe) => ({
