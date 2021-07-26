@@ -42,8 +42,8 @@
     "Herdplatte ausschalten und 5min ziehen lassen"
   ],
   "nutrition": {
-    "protein": "50g",
-    "carbs": "50g",
-    "fat": "5g"
+    "protein": "",
+    "carbs": "",
+    "fat": ""
   }
 }

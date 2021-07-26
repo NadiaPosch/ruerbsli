@@ -39,11 +39,11 @@
     "Quark, Eier, Parmesan und Gewürze mixen",
     "Erbsli und Zwiebel hinzufügen, gut mischen",
     "Mischung auf einem Bachblech gleichmässig verteilen",
-    "Ofen auf 200°C (Umluft) vorheizen, in der Ofenmitte ca. 20min bachen"
+    "Ofen auf 200°C (Umluft) vorheizen, in der Ofenmitte ca. 20min backen"
   ],
   "nutrition": {
-    "protein": "50g",
-    "carbs": "200g",
-    "fat": "100g"
+    "protein": "",
+    "carbs": "",
+    "fat": ""
   }
 }

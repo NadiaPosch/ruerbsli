@@ -1,0 +1,47 @@
+{
+  "id": "tortilla-pizza",
+  "name": "Tortilla Pizza",
+  "dauer": "30min",
+  "portionen": 2,
+  "bild": "/images/tortilla-pizza.jpg",
+  "zutaten": [
+    {
+      "einheit": "4",
+      "zutat": "Vollkorn-Tortillas"
+    },
+    {
+      "einheit": "500 g",
+      "zutat": "Tomatensauce mit Gemüse"
+    },
+    {
+      "einheit": "2 Dosen",
+      "zutat": "Thunfisch"
+    },
+    {
+      "einheit": "1 kleine",
+      "zutat": "Zucchetti, in Scheiben"
+    },
+    {
+      "einheit": "2",
+      "zutat": "Mozzarella"
+    },
+    {
+      "einheit": "genug",
+      "zutat": "Parmesan"
+    },
+    {
+      "einheit": "",
+      "zutat": "Salz, Pfeffer, Kräutli"
+    }
+  ],
+  "schritte": [
+    "Tortillas auf zwei Backbleche legen, mit Tomatensauce bestreichen",
+    "Thunfisch, Zucchetti und Mozzarella verteilen und mit Parmesan und Gewürzen bestreuen",
+    "Ofen auf 200°C (Umluft + Unterhitze) vorheizen, ca. 20min backen und nach 10min Bleche tauschen"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}

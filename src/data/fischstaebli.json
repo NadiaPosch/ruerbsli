@@ -1,0 +1,31 @@
+{
+  "id": "fischstaebli",
+  "name": "Fischstäbli",
+  "dauer": "20min",
+  "portionen": 1,
+  "bild": "/images/fischstaebli.jpg",
+  "zutaten": [
+    {
+      "einheit": "15",
+      "zutat": "Fischstäbli"
+    },
+    {
+      "einheit": "3 cups",
+      "zutat": "Erbsli"
+    },
+    {
+      "einheit": "(4 cups",
+      "zutat": "Rahmpinat)"
+    }
+  ],
+  "schritte": [
+    "Ofen auf 210°C (Umluft) vorheizen",
+    "Fischstäbli auf einem Backblech verteilen, ca. 20min backen und nach 10min wenden",
+    "Erbsli (Rahmspinat) mit etwas Wasser kochen"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}

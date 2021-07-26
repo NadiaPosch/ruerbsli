@@ -1,0 +1,42 @@
+{
+  "id": "ofengemuese",
+  "name": "Ofengemüse",
+  "dauer": "40min",
+  "portionen": 2,
+  "bild": "/images/ofengemuese.jpg",
+  "zutaten": [
+    {
+      "einheit": "4",
+      "zutat": "Rüebli, in Stäbchen"
+    },
+    {
+      "einheit": "1",
+      "zutat": "roher Randen, in Stäbchen"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Pepperoni, in Stücken"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Broccoli, in Röschen"
+    },
+    {
+      "einheit": "2 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "einheit": "",
+      "zutat": "Salz, Pfeffer, Kräutli"
+    }
+  ],
+  "schritte": [
+    "Gemüse mit Öl und Gewürzen marinieren und auf zwei Backblechen verteilen",
+    "Ofen auf 200°C (Umluft) vorheizen, ca. 30min backen und nach 15min Bleche tauschen"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}

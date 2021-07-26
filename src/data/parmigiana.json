@@ -1,0 +1,40 @@
+{
+  "id": "parmigiana",
+  "name": "Parmigiana",
+  "dauer": "2h",
+  "portionen": 4,
+  "bild": "/images/parmigiana.jpg",
+  "zutaten": [
+    {
+      "einheit": "2",
+      "zutat": "Auberginen, in 1cm dicken Scheiben"
+    },
+    {
+      "einheit": "800 g",
+      "zutat": "Tomatensauce mit Gemüse"
+    },
+    {
+      "einheit": "250 g",
+      "zutat": "Mozzarella"
+    },
+    {
+      "einheit": "1 Dose",
+      "zutat": "Kichererbsen"
+    },
+    {
+      "einheit": "genug",
+      "zutat": "Parmesan"
+    }
+  ],
+  "schritte": [
+    "Ofen auf 200°C (Umluft) vorheizen",
+    "Auberginenscheiben auf Backblechen verteilen, beidseitig salzen, ca. 20min backen und nach 10min wenden",
+    "Zutaten folgendermassen in Auflaufform schichten: Tomatensauce, Auberginen, Kichererbsen, Mozzarella, Parmesan",
+    "In der Ofenmitte ca. 45min backen"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}

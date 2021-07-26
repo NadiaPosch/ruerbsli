@@ -48,11 +48,11 @@
     "Milch hinzufügen, rühren bis eine einheitliche Masse entsteht",
     "Brotform mit Backpapier auskleiden, Teig hineinfüllen und flach streichen",
     "Kernen darüberstreuen",
-    "Ofen auf 200°C (Umluft & Unterhitze) vorheizen, in der unteren Ofenhälfte ca. 40min bachen"
+    "Ofen auf 200°C (Umluft & Unterhitze) vorheizen, in der unteren Ofenhälfte ca. 40min backen"
   ],
   "nutrition": {
-    "protein": "50g",
-    "carbs": "200g",
-    "fat": "100g"
+    "protein": "",
+    "carbs": "",
+    "fat": ""
   }
 }
