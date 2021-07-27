@@ -31,9 +31,14 @@ class MyDocument extends Document {
         </div>
         <body
           className="flex flex-col gap-4 md:gap-12 min-h-screen"
-          style={{ backgroundImage: `url("/images/chalkboard.jpg")` }}
+          style={{
+            backgroundImage: `url("/images/chalkboard.jpg")`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundAttachment: "fixed",
+          }}
         >
-          <main className="flex flex-col justify-center md:max-w-lg mx-auto px-4 md:px-8">
+          <main className="flex flex-col justify-center w-full md:max-w-lg mx-auto px-4 md:px-8">
             <Main />
             <NextScript />
           </main>
