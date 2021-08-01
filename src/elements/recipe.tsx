@@ -51,10 +51,12 @@ export const Recipe: FC<Props> = ({ recipe }) => {
 
         <Heading2>Zutaten</Heading2>
         <div className="grid grid-cols-custom gap-x-4 gap-y-2 md:mx-auto">
-          {zutaten.map((zutat) => (
+          {zutaten.map((zutat, index) => (
             <>
-              <div className="text-right">{zutat.einheit}</div>
-              <div>{zutat.zutat}</div>
+              <div key={`einheit-${index}`} className="text-right">
+                {zutat.einheit}
+              </div>
+              <div key={`zutat-${index}`}>{zutat.zutat}</div>
             </>
           ))}
         </div>
