@@ -1,0 +1,38 @@
+{
+  "id": "enchiladas",
+  "name": "Enchiladas",
+  "dauer": "4h",
+  "portionen": 4,
+  "bild": "/images/enchiladas.jpg",
+  "zutaten": [
+    {
+      "einheit": "500 g",
+      "zutat": "Chilli, gemäss Rezept"
+    },
+    {
+      "einheit": "4",
+      "zutat": "Vollkorn-Tortillas"
+    },
+    {
+      "einheit": "8 EL",
+      "zutat": "Parmesan"
+    },
+    {
+      "einheit": "200 g",
+      "zutat": "Sauerrahm"
+    }
+  ],
+  "schritte": [
+    "Chilli gemäss Rezept zubereiten",
+    "Auflaufform einfetten und Tortillas hineinlegen",
+    "Tortillas mit 3/4 des Chillis füllen und einrollen",
+    "Restliches Chilli und 4 EL Sauerrahm über den Tortillas verteilen, Parmesan darüberstreuen",
+    "Ofen auf 200°C (Umluft) vorheizen, Enchiladas ca. 10min in der Ofenmitte backen, auf Umluft + Oberhitze umschalten und weitere 10min in der oberen Ofenhälfte überbacken",
+    "Mit restlichem Sauerrahm servieren"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}
