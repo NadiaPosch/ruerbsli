@@ -1,0 +1,37 @@
+{
+  "id": "omeletten",
+  "name": "Omeletten",
+  "dauer": "40min",
+  "portionen": 2,
+  "bild": "/images/omeletten.jpg",
+  "zutaten": [
+    {
+      "einheit": "150 ml",
+      "zutat": "Mehl"
+    },
+    {
+      "einheit": "0.5 TL",
+      "zutat": "Salz"
+    },
+    {
+      "einheit": "2 dl",
+      "zutat": "Milch"
+    },
+    {
+      "einheit": "2",
+      "zutat": "Eier"
+    }
+  ],
+  "schritte": [
+    "Mehl und Salz in einer Schüssel mischen",
+    "Milch und Eier verrühren, Mehl dazugeben und zu einem einheitlichen Teig rühren",
+    "Etwas Kokosfett in die Bratpfanne geben und heiss werden lassen (Stufe 5.5)",
+    "Hitze reduzieren (4.5), Teig portionenweise beidseitig braten (ergibt 4 Stück)",
+    "Warm stellen und mit süssem oder salzigem Belag geniessen"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "hummus",
+  "name": "Hummus",
+  "dauer": "10min",
+  "portionen": 4,
+  "bild": "/images/hummus.jpg",
+  "zutaten": [
+    {
+      "einheit": "1 Dose",
+      "zutat": "Kichererbsen ohne Saft"
+    },
+    {
+      "einheit": "2 EL",
+      "zutat": "Tahini"
+    },
+    {
+      "einheit": "1 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "einheit": "1 TL",
+      "zutat": "Currypaste"
+    },
+    {
+      "einheit": "1 TL",
+      "zutat": "Sojasauce"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Knoblauchzehe, gerieben"
+    },
+    {
+      "einheit": "5",
+      "zutat": "getrocknete Tomaten, gehackt"
+    },
+    {
+      "einheit": "genug",
+      "zutat": "Kräuter, Gewürze, Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Alle Zutaten in einen Mixbecher geben und mixen, bis eine einheitliche Masse entsteht",
+    "Allenfalls mit etwas Sojasauce oder Salz abschmecken",
+    "Mit Rohkost, Ofengemüse oder als Brotaufstrich geniessen"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}

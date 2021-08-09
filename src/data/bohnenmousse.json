@@ -1,0 +1,43 @@
+{
+  "id": "bohnenmousse",
+  "name": "Bohnen-mousse",
+  "dauer": "10min",
+  "portionen": 4,
+  "bild": "/images/bohnenmousse.jpg",
+  "zutaten": [
+    {
+      "einheit": "1 Dose",
+      "zutat": "rote Bohnen ohne Saft"
+    },
+    {
+      "einheit": "1 EL",
+      "zutat": "Erdnussbutter"
+    },
+    {
+      "einheit": "1 TL",
+      "zutat": "Currypaste"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Knoblauchzehe, gerieben"
+    },
+    {
+      "einheit": "5",
+      "zutat": "getrocknete Tomaten, gehackt"
+    },
+    {
+      "einheit": "genug",
+      "zutat": "Kräuter, Gewürze"
+    }
+  ],
+  "schritte": [
+    "Alle Zutaten in einen Mixbecher geben und mixen, bis eine einheitliche Masse entsteht",
+    "Allenfalls mit etwas Sojasauce oder Salz abschmecken",
+    "Mit Rohkost, Ofengemüse oder als Brotaufstrich geniessen"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}
