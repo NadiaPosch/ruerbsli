@@ -1,20 +1,14 @@
 import { GetStaticProps, NextPage } from "next";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { getFilteredRecipes } from "../../public/helper/get-filtered-recipes";
 import { getRecipes, RecipeData } from "../data/recipes";
 import { Card } from "../elements/card";
 import { Title } from "../elements/title";
+
 type Props = {
   recipes: RecipeData[];
 };
-
-export const getFilteredRecipes = (term: string, recipes: RecipeData[]) =>
-  recipes.filter(
-    (recipe) =>
-      recipe.zutaten
-        .flatMap(({ zutat }) => zutat.toLowerCase())
-        .filter((zutat) => zutat.includes(term.toLowerCase())).length > 0
-  );
 
 const Home: NextPage<Props> = ({ recipes }) => {
   const [currentRecipes, setCurrentRecipes] = useState(recipes);
@@ -24,7 +18,7 @@ const Home: NextPage<Props> = ({ recipes }) => {
     setCurrentRecipes(
       searchTerm.length > 0 ? getFilteredRecipes(searchTerm, recipes) : recipes
     );
-  }, [searchTerm]);
+  }, [searchTerm, recipes]);
 
   return (
     <>

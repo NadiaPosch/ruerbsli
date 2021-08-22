@@ -12,6 +12,7 @@ type Props = {
 
 export const Recipe: FC<Props> = ({ recipe }) => {
   const {
+    id,
     bild,
     name,
     portionen,
@@ -53,10 +54,10 @@ export const Recipe: FC<Props> = ({ recipe }) => {
         <div className="grid grid-cols-custom gap-x-4 gap-y-2 md:mx-auto">
           {zutaten.map((zutat, index) => (
             <>
-              <div key={`einheit-${index}`} className="text-right">
+              <div key={`${id}-einheit-${index}`} className="text-right">
                 {zutat.einheit}
               </div>
-              <div key={`zutat-${index}`}>{zutat.zutat}</div>
+              <div key={`${id}-zutat-${index}`}>{zutat.zutat}</div>
             </>
           ))}
         </div>
@@ -64,7 +65,7 @@ export const Recipe: FC<Props> = ({ recipe }) => {
         <Heading2>Schritte</Heading2>
         <ol className="list-decimal grid grid-flow-row gap-4 px-8">
           {schritte.map((schritt, i) => (
-            <li key={schritt}>{schritt}</li>
+            <li key={`${id}-schritt-${i}`}>{schritt}</li>
           ))}
         </ol>
 
