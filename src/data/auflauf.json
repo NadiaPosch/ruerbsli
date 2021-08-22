@@ -1,0 +1,42 @@
+{
+  "id": "auflauf",
+  "name": "Auflauf",
+  "dauer": "60min",
+  "portionen": 4,
+  "bild": "/images/auflauf.jpg",
+  "zutaten": [
+    {
+      "einheit": "500 g",
+      "zutat": "Gemüse, gekocht"
+    },
+    {
+      "einheit": "4-5",
+      "zutat": "Eier"
+    },
+    {
+      "einheit": "3-5 dl",
+      "zutat": "Milch"
+    },
+    {
+      "einheit": "genug",
+      "zutat": "Parmesan"
+    },
+    {
+      "einheit": "beliebige",
+      "zutat": "Gewürze"
+    }
+  ],
+  "schritte": [
+    "Ofen auf 200°C Umluft vorheizen",
+    "Gekochtes Gemüse in eine Auflaufform füllen",
+    "Eier in einen Massbecher aufschlagen, mit Milch bis ca. 5 dl auffüllen, gut würzen und mixen",
+    "Guss über das Gemüse giessen, bis alles komplett bedeckt ist",
+    "Grosszügig mit Parmesan bestreuen",
+    "Für 40min in der Ofenmitte backen, bis sich eine goldbraune Kruste bildet"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}

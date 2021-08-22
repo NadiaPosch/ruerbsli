@@ -1,0 +1,27 @@
+{
+  "id": "knuspriges-poulet",
+  "name": "Knuspriges Poulet",
+  "dauer": "20min",
+  "portionen": 2,
+  "bild": "/images/knuspriges-poulet.jpg",
+  "zutaten": [
+    {
+      "einheit": "1 Pack",
+      "zutat": "Crispy Chicken Gewürzmischung"
+    },
+    {
+      "einheit": "300 g",
+      "zutat": "Poulet, in Stücken"
+    },
+    {
+      "einheit": "2 EL",
+      "zutat": "Öl"
+    }
+  ],
+  "schritte": [
+    "Ofen auf 210°C Umluft vorheizen",
+    "Pouletstücke, Gewürzmischung und Öl in einem Sack gut mischen",
+    "Auf einem Blech 15min in der Ofenmitte backen"
+  ],
+  "nutrition": { "protein": "", "carbs": "", "fat": "" }
+}

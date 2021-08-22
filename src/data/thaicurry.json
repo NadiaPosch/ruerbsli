@@ -1,0 +1,40 @@
+{
+  "id": "thaicurry",
+  "name": "Thaicurry",
+  "dauer": "30min",
+  "portionen": 2,
+  "bild": "/images/thaicurry.jpg",
+  "zutaten": [
+    {
+      "einheit": "250 ml",
+      "zutat": "Kokosmilch Light"
+    },
+    {
+      "einheit": "2 EL",
+      "zutat": "Currypaste"
+    },
+    {
+      "einheit": "600 g",
+      "zutat": "Thai Gemüsemix ungewürzt"
+    },
+    {
+      "einheit": "1 cup",
+      "zutat": "Kichererbsen"
+    },
+    {
+      "einheit": "3-4 EL",
+      "zutat": "Sojasauce"
+    }
+  ],
+  "schritte": [
+    "Gemüsemix kochen bis die gewünschte Bissfestigkeit erreicht ist, beiseite stellen",
+    "Kokosmilch, Currypaste und Sojasauce in der Bratpfanne mischen und aufkochen",
+    "Hitze reduzieren (Stufe 4), Gemüsemix und Kichererbsen hinzufügen",
+    "Für 5min weiterköcheln lassen und mit Reis servieren"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}

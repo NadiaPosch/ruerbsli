@@ -1,0 +1,48 @@
+{
+  "id": "tajine",
+  "name": "Tajine",
+  "dauer": "45min",
+  "portionen": 2,
+  "bild": "/images/tajine.jpg",
+  "zutaten": [
+    {
+      "einheit": "2",
+      "zutat": "Zwiebeln, gehackt"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Knoblauch, gerieben"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Aubergine, in Stücken"
+    },
+    {
+      "einheit": "1",
+      "zutat": "Zucchetti, in Stücken"
+    },
+    {
+      "einheit": "2 Dosen",
+      "zutat": "Pelati"
+    },
+    {
+      "einheit": "genug",
+      "zutat": "Kräuter, Gewürze"
+    },
+    {
+      "einheit": "2",
+      "zutat": "Eier"
+    }
+  ],
+  "schritte": [
+    "Zwiebeln und Knoblauch mit etwas Kokosfett in einer Bratpfanne andämpfen",
+    "Aubergine und Zucchetti hinzufügen, mitdämpfen",
+    "Pelati hinzufügen und ca. 20min einkochen lassen, gut würzen",
+    "Eier vorsichtig hineinschlagen und weiterköcheln lassen, bis das Eiweiss stockt"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}

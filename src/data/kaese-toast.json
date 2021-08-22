@@ -1,0 +1,39 @@
+{
+  "id": "kaese-toast",
+  "name": "Käsetoast",
+  "dauer": "20min",
+  "portionen": 2,
+  "bild": "/images/kaese-toast.jpg",
+  "zutaten": [
+    {
+      "einheit": "4 Scheiben",
+      "zutat": "Brot"
+    },
+    {
+      "einheit": "4 Scheiben",
+      "zutat": "(Raclette-) Käse"
+    },
+    {
+      "einheit": "4 Scheiben",
+      "zutat": "Aufschnitt"
+    },
+    {
+      "einheit": "4",
+      "zutat": "Früchte- oder Gemüsestücke"
+    },
+    {
+      "einheit": "",
+      "zutat": "Gewürze"
+    }
+  ],
+  "schritte": [
+    "Ofen auf 180°C Umluft vorheizen",
+    "Brot mit Aufschnitt, Frucht-/Gemüsestücken und Käse belegen, gut würzen",
+    "Für 8-10 Minuten in der Ofenmitte backen, bis der Käse geschmolzen ist"
+  ],
+  "nutrition": {
+    "protein": "",
+    "carbs": "",
+    "fat": ""
+  }
+}
